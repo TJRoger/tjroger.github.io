@@ -1,0 +1,6 @@
+markdown: rdiscount
+permalink: /:year/:month/:title/
+url: http://blog.sevenche.com
+author: Jim
+pygments: true
+paginate: 24
