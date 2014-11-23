@@ -4,7 +4,7 @@ layout: page
 comments: yes
 ---
   
-##JIM    
+##ROGER  
 
 个人邮箱:tjrogertj@gmail.com      
 新浪微博: [http://weibo.com/tjroger](http://weibo.com/tjroger)      
