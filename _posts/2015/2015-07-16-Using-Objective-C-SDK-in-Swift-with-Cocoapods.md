@@ -27,4 +27,5 @@ import your target s public headers that you would like to expose to swift
 `#import <AFNetworking/AFNetworking.h>`
 * Then you can use the sdk in your project
 `let manager = AFHTTPRequestOperationManager()`
+
 ----
