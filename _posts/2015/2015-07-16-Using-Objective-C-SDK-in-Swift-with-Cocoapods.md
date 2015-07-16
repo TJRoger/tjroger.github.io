@@ -11,11 +11,11 @@ tags:
      
 	 
 ## Using Objc SDK with Cocoapods in Swift
-### Add gem source when origninal sources unavailable
+Add gem source when origninal sources unavailable
 `gem sources -a http://ruby.taobao.org/
 gem install cocoapods`
 
-### Creating first Xcode project with cocoapods
+Creating first Xcode project with cocoapods
 * create a normal Xcode project
 * add a file `Podfile` to the root of the project
 file sample:
