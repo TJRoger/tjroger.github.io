@@ -4,15 +4,16 @@ title: Using Swift with Objc SDK in Cocoapods
 categories:
 - Swift
 tags:
-- Swift
+- Swift, Cocoapods
 ---
 
      
 	 
 ## Using Objc SDK with Cocoapods in Swift
 ### Add gem source when origninal sources unavailable
-`gem sources -a http://ruby.taobao.org/
-gem install cocoapods`
+`gem sources -a http://ruby.taobao.org/`
+
+`gem install cocoapods`
 
 ### Creating first Xcode project with cocoapods
 * create a normal Xcode project
