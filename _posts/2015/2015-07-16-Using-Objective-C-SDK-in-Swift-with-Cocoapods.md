@@ -5,12 +5,12 @@ title: Using Objc SDK with Cocoapods in Swift
 categories:
 - Swift
 tags:
-- Swift, Cocoapods
+- Swift
 ---
 
      
 	 
-## Usage
+## Using Objc SDK with Cocoapods in Swift
 ### Add gem source when origninal sources unavailable
 `gem sources -a http://ruby.taobao.org/
 gem install cocoapods`
@@ -19,8 +19,8 @@ gem install cocoapods`
 * create a normal Xcode project
 * add a file `Podfile` to the root of the project
 file sample:
-`platform :ios, '8.0'
-pod 'AFNetworking', '~>2.5.4'`
+`platform :ios, '8.0'`
+`pod 'AFNetworking', '~>2.5.4'`
 * using the xcworkspace instead of the xcodeproj
 * Most important procedure - Add `Brigding-Header` file
 add a objective-c file to the project and accept XCode to create the `project-name-Bridging-Header.h` file for you.
