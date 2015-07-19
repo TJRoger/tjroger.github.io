@@ -4,7 +4,7 @@ title: How to surf wikipedia Chinese from China mainland
 categories:
 - Network
 tags:
-- Network, Wikipeidia China
+- Network, Wikipeidia Chinese
 ---
 
      
