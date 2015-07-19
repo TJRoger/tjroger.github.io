@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How to surf wikipedia China in China
+title: How to surf wikipedia Chinese in China
 categories:
 - Network
 tags:
