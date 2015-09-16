@@ -28,6 +28,7 @@ cd to the project and run `pod install`
 4. Use the `xcworkspace` instead of the `xcodeproj`
 5. **Most important procedure - Add `Brigding-Header` file**
   * add a objective-c `.m` file to the project and accept XCode to create the `project-name-Bridging-Header.h` file for you.
+  * then you can delete the `.m` file XCode created for you
   * import your target s public headers that you would like to expose to swift
   `#import <AFNetworking/AFNetworking.h>`
 6. Then you can use the sdk in your project
