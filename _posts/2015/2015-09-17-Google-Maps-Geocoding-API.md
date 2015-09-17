@@ -4,7 +4,7 @@ title: Google Maps Geocoding API
 categories:
 - Google Maps
 tags:
-- Google Maps, Geocoding
+- Google Maps, Geocoding, Reverse GeoCoding
 ---
 
      
@@ -38,7 +38,19 @@ json recommended
 
 ### Example
 https://maps.googleapis.com/maps/api/geocode/json?address=1600+Amphitheatre+Parkway,+Mountain+View,+CA&key=API_KEY
-
+### Reponse
+        json:{ results: [address_components],
+                status: StatusCodes
+        }
+        enum StatusCode: String {
+                case OK = "OK"
+                case ZERO_RESULTS
+                case OVER_QUERY_LIMIT
+                case REQUEST_DENIED
+                case INVALID_REQUEST
+                case UNKNOW_ERROR
+        }
+        
 ## Reverse Geocoding
 ### Required parameters
 `latlng` :tuple Double, Double
