@@ -69,6 +69,6 @@ use `try?` to handle an error by converting it to an optional value
 use `try!` to disable error propagation when you know a throwing function or method won't, in fact, throw an error at runtime.
 
 ### Specifying Cleanup Actions
-use `defer` to clean up after the code block has finished excuting.
+use `defer` to clean up after the code block has finished excuting.  
 
 ----
