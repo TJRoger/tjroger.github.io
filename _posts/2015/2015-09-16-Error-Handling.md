@@ -10,14 +10,23 @@ tags:
      
 	 
 ## Error Handling
-### Four ways to handle errors
+
 > “NOTE
 > 
 > Error handling in Swift resembles exception handling in other languages, with the use of the try, catch and throw keywords. Unlike exception handling in many languages—including Objective-C—error handling in Swift does not involve unwinding the call stack, a process that can be computationally expensive. As such, the performance characteristics of a throw statement are comparable to those of a return statement.”
 > 
 > Excerpt From: Apple Inc. “The Swift Programming Language (Swift 2 Prerelease).” iBooks. https://itun.es/us/k5SW7.l
 
+<<<<<<< HEAD
+=======
+### Four ways to handle errors
+> “There are four ways to handle errors in Swift. You can propagate the error from a function to the code that calls that function, handle the error using a do-catch statement, handle the error as an optional value, or assert that the error will not occur”
+> 
+> Excerpt From: Apple Inc. “The Swift Programming Language (Swift 2).” iBooks. https://itun.es/us/jEUH0.l
+
+>>>>>>> 7b07bf36dd772600c7eadfe8df72707aae06eceb
 #### Propagating Errors Using Throwing Functions
+
 Propagate errors from a function to the code that calls that function. Write `throws` keyword in the function's declaration after its parameters(before the return arrow).
 methods call throwing function must either handle the errors directly--using a do-catch statement, try?, or try!--or continue to propagate them
 > “NOTE
@@ -27,6 +36,7 @@ methods call throwing function must either handle the errors directly--using a d
 > Excerpt From: Apple Inc. “The Swift Programming Language (Swift 2 Prerelease).” iBooks. https://itun.es/us/k5SW7.l
 
 #### Handle errors  using a do-catch statement
+
 ```do-catch-template
 do {
     try <#expression#>
@@ -63,11 +73,15 @@ do {
 ```
 
 #### Handle errors as an optional value
+
 use `try?` to handle an error by converting it to an optional value
 
 #### Assert that errors will not occur  
+
 use `try!` to disable error propagation when you know a throwing function or method won't, in fact, throw an error at runtime.
 
-### Specifying Cleanup Actions  
-use
+### Specifying Cleanup Actions
+
+use `defer` to clean up after the code block has finished excuting.  
+
 ----
