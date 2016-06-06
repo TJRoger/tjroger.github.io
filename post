@@ -1,0 +1,22 @@
+#!/bin/bash
+# My first script
+
+echo 'Handsome boy, Good morning!'
+folder=`date +%Y`
+filePrefix=`date +%Y-%m-%d`
+prefix=_posts/${folder}/${filePrefix}-
+if (( $# > 0 )); then
+	file=$prefix$1.md
+	filedir=$( dirname $file)
+	if !([ -d $filedir ]) ; then
+		mkdir $filedir; 
+	fi
+
+	if !([ -f $file ]) then
+		touch $file && cat template.md >> $file
+	fi
+
+	vim $file
+else
+	echo 'No file name entered! Please enter one.'
+fi
