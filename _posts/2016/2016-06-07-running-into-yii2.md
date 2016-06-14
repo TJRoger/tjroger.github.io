@@ -22,5 +22,7 @@ grep -rn '"' *
 
 
 ## replace string in multiple files
+
 sed -i “s/oldString/newString/g” `grep oldString -rl *`
+
 ----
