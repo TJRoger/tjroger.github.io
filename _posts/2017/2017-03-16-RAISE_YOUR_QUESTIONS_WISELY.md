@@ -12,7 +12,7 @@ tags:
 # Raise good questions
 > 外事Google，内事百度。
 
-技术问题建议使用Google，提升自己的英文阅读理解水平。
+技术问题建议使用Google，提升自己的英文阅读理解水平。  
 [Google Search Tips](http://www.williamlong.info/archives/728.html)
 
 ### 让提出的问题有价值
