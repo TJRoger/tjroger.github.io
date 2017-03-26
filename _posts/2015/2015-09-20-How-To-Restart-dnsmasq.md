@@ -14,4 +14,11 @@ tags:
 sudo launchctl stop homebrew.mxcl.dnsmasq
 sudo launchctl start homebrew.mxcl.dnsmasq
 ```
+
+#### Homebrew
+```
+sudo brew services restart dnsmasq
+sudo brew services stop dnsmasq
+sudo brew services start dnsmasq
+```
 ----

@@ -32,6 +32,7 @@ cd to the project and run `pod install`
   * import your target s public headers that you would like to expose to swift
   * `#import <AFNetworking/AFNetworking.h>`
 6. Then you can use the sdk in your project
+
 `let manager = AFHTTPRequestOperationManager()`
 
 ----

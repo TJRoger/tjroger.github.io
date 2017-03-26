@@ -17,18 +17,17 @@ tags:
 > 
 > Excerpt From: Apple Inc. “The Swift Programming Language (Swift 2 Prerelease).” iBooks. https://itun.es/us/k5SW7.l
 
-<<<<<<< HEAD
-=======
 ### Four ways to handle errors
+
 > “There are four ways to handle errors in Swift. You can propagate the error from a function to the code that calls that function, handle the error using a do-catch statement, handle the error as an optional value, or assert that the error will not occur”
 > 
 > Excerpt From: Apple Inc. “The Swift Programming Language (Swift 2).” iBooks. https://itun.es/us/jEUH0.l
 
->>>>>>> 7b07bf36dd772600c7eadfe8df72707aae06eceb
 #### Propagating Errors Using Throwing Functions
 
 Propagate errors from a function to the code that calls that function. Write `throws` keyword in the function's declaration after its parameters(before the return arrow).
 methods call throwing function must either handle the errors directly--using a do-catch statement, try?, or try!--or continue to propagate them
+
 > “NOTE
 > 
 > Only throwing functions can propagate errors. Any errors thrown inside a nonthrowing function must be handled inside the function.”
