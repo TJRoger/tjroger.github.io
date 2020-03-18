@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Unity-iPhone.ipa</key>
+	<array>
+		<dict>
+			<key>architectures</key>
+			<array>
+				<string>arm64</string>
+			</array>
+			<key>certificate</key>
+			<dict>
+				<key>SHA1</key>
+				<string>488E2CF86381A2C983D786AC8CBF5E7D57B6ED9E</string>
+				<key>dateExpires</key>
+				<string>3/7/21</string>
+				<key>type</key>
+				<string>Apple Distribution</string>
+			</dict>
+			<key>entitlements</key>
+			<dict>
+				<key>application-identifier</key>
+				<string>7KXVPC4Y3C.com.unity.ARKit-Demo</string>
+				<key>com.apple.developer.team-identifier</key>
+				<string>7KXVPC4Y3C</string>
+				<key>get-task-allow</key>
+				<false/>
+				<key>keychain-access-groups</key>
+				<array>
+					<string>7KXVPC4Y3C.com.unity.ARKit-Demo</string>
+				</array>
+			</dict>
+			<key>name</key>
+			<string>live3d.app</string>
+			<key>profile</key>
+			<dict>
+				<key>UUID</key>
+				<string>7d27d50e-4913-4b1b-b0cb-d9ff87c12794</string>
+				<key>name</key>
+				<string>iOS Team Ad Hoc Provisioning Profile: *</string>
+			</dict>
+			<key>team</key>
+			<dict>
+				<key>id</key>
+				<string>7KXVPC4Y3C</string>
+				<key>name</key>
+				<string>Luo Chengyuan</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>
