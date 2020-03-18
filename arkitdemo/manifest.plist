@@ -11,19 +11,19 @@
 					<key>kind</key>
 					<string>software-package</string>
 					<key>url</key>
-                    <string>https://tjroger.github.io/apps/arkit/demo.ipa</string>
+                    <string>https://tjroger.github.io/arkitdemo/demo.ipa</string>
 				</dict>
 				<dict>
 					<key>kind</key>
 					<string>display-image</string>
 					<key>url</key>
-					<string>https://tjroger.github.io/demo.png</string>
+                    <string>https://tjroger.github.io/arkitdemo/demo.png</string>
 				</dict>
 				<dict>
 					<key>kind</key>
 					<string>full-size-image</string>
 					<key>url</key>
-					<string>https://tjroger.github.io/demo.png</string>
+                    <string>https://tjroger.github.io/arkitdemo/demo.png</string>
 				</dict>
 			</array>
 			<key>metadata</key>
