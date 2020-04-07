@@ -4,23 +4,17 @@
 echo 'Handsome Roger, how are you'
 folder=`date +%Y`
 filePrefix=`date +%Y-%m-%d`
-prefix=_posts/${folder}/${filePrefix}
+prefix=_posts/${folder}/${filePrefix}-
 
 if (( $# > 0 )); then
     old="$IFS"
-    IFS="\ "
-    str="$*"
-    echo $str
+    IFS="_"
+    file="$prefix$*.md"
     IFS=$old
-    file="$prefix$str.md"
-    echo $file
     filedir=$( dirname $file)
     if !([ -d $filedir ]) ; then
         mkdir $filedir; 
     fi
-    echo $filedir
-    exit -1
-
     if !([ -f $file ]) then
         touch $file && cat template.md >> $file
     fi
