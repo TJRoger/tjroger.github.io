@@ -37,7 +37,7 @@
 				<key>platform-identifier</key>
 				<string>com.apple.platform.iphoneos</string>
 				<key>title</key>
-				<string>live3d</string>
+				<string>iPhoneX</string>
 			</dict>
 			<key>thinned-assets</key>
 			<array>
@@ -47,7 +47,7 @@
 					<key>kind</key>
 					<string>software-package</string>
 					<key>url</key>
-                    <string>apps/Unity-iPhone-776F06C9-B0E7-44C5-B19E-09213154C3FB.ipa</string>
+                    <string>https://github.com/TJRoger/tjroger.github.io/raw/master/arkitdemo/apps/Unity-iPhone-776F06C9-B0E7-44C5-B19E-09213154C3FB.ipa</string>
 					<key>variantDescriptors</key>
 					<array>
 						<dict>  
@@ -204,7 +204,7 @@
 					<key>kind</key>
 					<string>software-package</string>
 					<key>url</key>
-                    <string>apps/Unity-iPhone-78A0A315-D7FE-43F7-9BA7-61F1ECA881D9.ipa</string>
+                    <string>https://github.com/TJRoger/tjroger.github.io/raw/master/arkitdemo/apps/Unity-iPhone-78A0A315-D7FE-43F7-9BA7-61F1ECA881D9.ipa</string>
 					<key>variantDescriptors</key>
 					<array>
 						<dict>
