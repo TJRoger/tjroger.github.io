@@ -1,6 +1,6 @@
 markdown: rdiscount
 permalink: /:year/:month/:title/
-url: http://tjroger.github.io
+url: https://tjroger.github.io
 author: Roger
 pygments: true
 paginate: 24
