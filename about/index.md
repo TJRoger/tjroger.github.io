@@ -4,9 +4,12 @@ layout: page
 comments: yes
 ---
   
-## ROGER  
+## Reach me  
 
-个人邮箱: [tjrogertj@gmail.com](mailto:tjrogertj@gmail.com)      
-新浪微博: [http://weibo.com/tjroger](http://weibo.com/tjroger)      
+work email: [tjrogertj@gmail.com](mailto:tjrogertj@gmail.com)      
+sina weibo: [http://weibo.com/tjroger](http://weibo.com/tjroger)      
 github : [https://github.com/tjroger](https://github.com/tjroger)  
 twitter: [](https://twitter.com/rRogerLuo)
+facebook: [](https://www.facebook.com/LuoChengyuan)
+stackoverflow: [](https://stackoverflow.com/users/2351262/roger)
+linkedin: [](https://www.linkedin.com/in/luochengyuan/)
