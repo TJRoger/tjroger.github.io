@@ -6,10 +6,10 @@ comments: yes
   
 ## About me  
 
-work email: [tjrogertj@gmail.com](mailto:tjrogertj@gmail.com)      
-sina weibo: [http://weibo.com/tjroger](http://weibo.com/tjroger)      
-github : [https://github.com/tjroger](https://github.com/tjroger)  
-twitter: [https://twitter.com/rRogerLuo](https://twitter.com/rRogerLuo)  
-facebook: [https://www.facebook.com/LuoChengyuan](https://www.facebook.com/LuoChengyuan)  
-stackoverflow: [https://stackoverflow.com/users/2351262/roger](https://stackoverflow.com/users/2351262/roger)  
-linkedin: [https://www.linkedin.com/in/luochengyuan/](https://www.linkedin.com/in/luochengyuan/)  
+Email: [tjrogertj@gmail.com](mailto:tjrogertj@gmail.com)      
+Sina weibo: [http://weibo.com/tjroger](http://weibo.com/tjroger)      
+Github : [https://github.com/tjroger](https://github.com/tjroger)  
+Twitter: [https://twitter.com/rRogerLuo](https://twitter.com/rRogerLuo)  
+Facebook: [https://www.facebook.com/LuoChengyuan](https://www.facebook.com/LuoChengyuan)  
+Stackoverflow: [https://stackoverflow.com/users/2351262/roger](https://stackoverflow.com/users/2351262/roger)  
+Linkedin: [https://www.linkedin.com/in/luochengyuan/](https://www.linkedin.com/in/luochengyuan/)  
