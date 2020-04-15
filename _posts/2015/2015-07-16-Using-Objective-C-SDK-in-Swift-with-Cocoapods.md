@@ -12,8 +12,9 @@ tags:
 ## Using objc SDK in swift with Cocoapods
 ### Add gem source when original sources unavailable
 
-~~gem sources -a http://ruby.taobao.org/~~deprecated
+~~gem sources -a http://ruby.taobao.org/~~ deprecated
 ```
+gem sources -a https://gems.ruby-china.com/
 gem install cocoapods
 ```
 ### Creating first Xcode project with cocoapods
