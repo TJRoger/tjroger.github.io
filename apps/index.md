@@ -5,11 +5,15 @@ layout: page
 
 <div id="tag_cloud">
 {% for cat in site.categoires %}
-<textarea>{{ site.caegories }}</textarea>
+<textarea>{{ site.categories }}</textarea>
 {% endfor %}
 <ul class="listing">
-  <a href="{{ size.url }}/goftp" title="Go FTP">Go FTP </a>
-  <a href="{{ size.url }}/gomorse" title="Go Morse">Go Morse </a>
+  <li class="listing-item">
+    <a href="{{ size.url }}/goftp" title="Go FTP">Go FTP </a>
+  </li>
+  <li>
+    <a href="{{ size.url }}/gomorse" title="Go Morse">Go Morse </a>
+  </li>
 </ul?
 
 
