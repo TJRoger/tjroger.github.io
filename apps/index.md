@@ -4,7 +4,7 @@ layout: page
 ---
 
 <div id="tag_cloud">
-{% for cat in site.categoires %}
+{% for cat in site.categories %}
 <textarea>{{ site.categories }}</textarea>
 {% endfor %}
 <ul class="listing">
