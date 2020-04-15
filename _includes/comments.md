@@ -12,7 +12,7 @@ var duoshuoQuery = {short_name:"tjroger"};
 		var ds = document.createElement('script');
 		ds.type = 'text/javascript';ds.async = true;
 		// ds.src = 'http://static.duoshuo.com/embed.js';
-		ds.src = 'https://raw.githubusercontent.com/jozhn/Duoshuo-SSL-js/master/embed.js';
+		ds.src = '/media/js/embed.js';
 		ds.charset = 'UTF-8';
 		(document.getElementsByTagName('head')[0] 
 		|| document.getElementsByTagName('body')[0]).appendChild(ds);
