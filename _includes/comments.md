@@ -1,17 +1,13 @@
 <section class="share">
   <div class="social-share"></div>
-  <script>
-    document.head.append('<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/social-share.js/1.0.16/css/share.min.css"/>')
-  </script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/social-share.js/1.0.16/css/share.min.css"/>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/social-share.js/1.0.16/js/social-share.min.js"></script>
 </section>
 
 <section class="comment">
   <!-- gitalk -->
   <div id="gitalk-container" ></div>
-  <script>
-    document.head.append('<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css" />')
-  </script>
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css" />
   <script src="//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
   <script type="text/javascript" src="/media/js/comments.js"></script>
   <!-- gitalk end-->
