@@ -11,13 +11,12 @@ layout: page
       <a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
     </li>
     {% endfor %}
-    <li class="listing-sperator" />
-      <li class="listing-item">
-        <a href="/apps/goftp" title="Go FTP">Go FTP </a>
-      </li>
-      <li>
-        <a href="/apps/gomorse" title="Go Morse">Go Morse </a>
-      </li>
+    <li class="listing-item">
+      <a href="/apps/goftp" title="Go FTP">Go FTP </a>
+    </li>
+    <li class="listing-item">
+      <a href="/apps/gomorse" title="Go Morse">Go Morse </a>
+    </li>
   </ul>
 </div>
 
