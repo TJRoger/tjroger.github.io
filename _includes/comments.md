@@ -16,6 +16,7 @@
 <!-- gitalk end-->
 
 <!-- baidu JIA -->
+<!--
 <div class="bdsharebuttonbox">
   <a href="#" class="bds_more" data-cmd="more"></a>
   <a title="分享到QQ空间" href="#" class="bds_qzone" data-cmd="qzone"></a>
@@ -25,9 +26,10 @@
   <a title="分享到微信" href="#" class="bds_weixin" data-cmd="weixin"></a>
 </div>
 <script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"1","bdSize":"16"},"share":{}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='/media/js/share.js?'];</script>
+-->
 <!-- end of baidu JIA -->
 
-<!-- Duoshuo Comment BEGIN -->
+<!-- Duoshuo Comment BEGIN
 <div class="ds-thread"></div>
 <script type="text/javascript">
 	var duoshuoQuery = {short_name:"tjroger"};
@@ -41,6 +43,6 @@
 		|| document.getElementsByTagName('body')[0]).appendChild(ds);
 	})();
 </script>
-<!-- Duoshuo Comment END -->
+Duoshuo Comment END -->
 </section>
 
