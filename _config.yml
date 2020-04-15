@@ -1,4 +1,4 @@
-markdown: rdiscount
+markdown: kramdown # or GFM, rdiscount is deprecated
 permalink: /:year/:month/:title/
 url: https://tjroger.github.io
 author: Roger
