@@ -9,12 +9,12 @@ layout: page
 {% endfor %}
 <ul class="listing">
   <li class="listing-item">
-    <a href="{{ size.url }}/goftp" title="Go FTP">Go FTP </a>
+    <a href="{{ size.url }}/apps/goftp" title="Go FTP">Go FTP </a>
   </li>
   <li>
-    <a href="{{ size.url }}/gomorse" title="Go Morse">Go Morse </a>
+    <a href="{{ size.url }}/apps/gomorse" title="Go Morse">Go Morse </a>
   </li>
-</ul?
+</ul>
 
 
 <script src="/media/js/jquery.tagcloud.js" type="text/javascript" charset="utf-8"></script> 
