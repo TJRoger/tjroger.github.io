@@ -1,5 +1,5 @@
 (function($) {
-
+  // 根据数量递增颜色，确定字号，默认14-18，范围由输入确定
   $.fn.tagcloud = function(options) {
     var opts = $.extend({}, $.fn.tagcloud.defaults, options);
     tagWeights = this.map(function(){
