@@ -1,31 +1,31 @@
 language: ruby
 rvm:
-	- 2.6.3
+  - 2.6.3
 
 befor_script:
-	- chmod +x ./script/cibuild
+  - chmod +x ./script/cibuild
 
 script: ./script/cibuild
 
 branches:
-	only:
-		- master
-		- develop
-		- /pages-(.*)/
+  only:
+    - master
+    - develop
+    - /pages-(.*)/
 
 env:
-	global:
-		- NOKOGIRI_USE_SYSTEM_LIBRARIES=true # speeds up installation of html-proofer
+  global:
+    - NOKOGIRI_USE_SYSTEM_LIBRARIES=true # speeds up installation of html-proofer
 addons:
-	apt:
-		packages:
-			- libcurl4-openssl-dev
+  apt:
+    packages:
+      - libcurl4-openssl-dev
 
 sudo: false # route your build to the container-based infrastructure for a faster build
 
 cache: bundler
 
 notifications:
-	email: false
+  email: false
 
 exclude: [vendor]
