@@ -22,6 +22,8 @@ GEM
     em-websocket (0.5.1)
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0.6.0)
+    ethon (0.12.0)
+      ffi (>= 1.3.0)
     eventmachine (1.2.7)
     execjs (2.7.0)
     faraday (1.0.1)
@@ -33,6 +35,14 @@ GEM
     html-pipeline (2.12.3)
       activesupport (>= 2)
       nokogiri (>= 1.4)
+    html-proofer (3.15.3)
+      addressable (~> 2.3)
+      mercenary (~> 0.3)
+      nokogumbo (~> 2.0)
+      parallel (~> 1.3)
+      rainbow (~> 3.0)
+      typhoeus (~> 1.3)
+      yell (~> 2.0)
     http_parser.rb (0.6.0)
     i18n (1.8.2)
       concurrent-ruby (~> 1.0)
@@ -103,9 +113,12 @@ GEM
     multipart-post (2.1.1)
     nokogiri (1.10.9)
       mini_portile2 (~> 2.4.0)
+    nokogumbo (2.0.2)
+      nokogiri (~> 1.8, >= 1.8.4)
     octokit (4.18.0)
       faraday (>= 0.9)
       sawyer (~> 0.8.0, >= 0.5.3)
+    parallel (1.19.1)
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
     pry (0.13.1)
@@ -115,6 +128,7 @@ GEM
       byebug (~> 11.0)
       pry (~> 0.13.0)
     public_suffix (4.0.4)
+    rainbow (3.0.0)
     rake (13.0.1)
     rb-fsevent (0.10.3)
     rb-inotify (0.10.1)
@@ -131,12 +145,15 @@ GEM
       unicode-display_width (~> 1.1, >= 1.1.1)
     thread_safe (0.3.6)
     tomlrb (1.3.0)
+    typhoeus (1.3.1)
+      ethon (>= 0.9.0)
     tzinfo (1.2.7)
       thread_safe (~> 0.1)
     tzinfo-data (1.2019.3)
       tzinfo (>= 1.0.0)
     unicode-display_width (1.7.0)
     yajl-ruby (1.4.1)
+    yell (2.2.2)
     zeitwerk (2.3.0)
 
 PLATFORMS
@@ -144,6 +161,8 @@ PLATFORMS
 
 DEPENDENCIES
   classifier-reborn (~> 2.2)
+  html-proofer
+  jekyll
   jekyll-avatar
   jekyll-coffeescript
   jekyll-feed (~> 0.9)
