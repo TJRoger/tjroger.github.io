@@ -64,6 +64,7 @@ GEM
       html-pipeline (~> 2.3)
       jekyll (>= 3.7, < 5.0)
     jekyll-paginate (1.1.0)
+    jekyll-pagination (0.0.4)
     jekyll-redirect-from (0.16.0)
       jekyll (>= 3.3, < 5.0)
     jekyll-sass-converter (2.1.0)
@@ -149,6 +150,7 @@ DEPENDENCIES
   jekyll-gist
   jekyll-mentions
   jekyll-paginate
+  jekyll-pagination
   jekyll-redirect-from
   jekyll-seo-tag
   jekyll-sitemap
