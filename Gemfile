@@ -91,7 +91,7 @@ end
 
 group :site do
   gem "html-proofer", "~> 3.4" if ENV["PROOF"]
-
+  gem "jekyll-pagination"
   gem "jekyll-avatar"
   gem "jekyll-mentions"
   gem "jekyll-seo-tag"
