@@ -8,6 +8,8 @@ source "https://rubygems.org"
 gem "i18n", "~> 1.2.0" if RUBY_ENGINE == "jruby"
 
 gem "rake", "~> 13.0"
+gem "jekyll"
+gem "html-proofer"
 
 group :development do
   gem "launchy", "~> 2.3"
