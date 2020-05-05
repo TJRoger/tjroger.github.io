@@ -18,10 +18,10 @@
 `bundle exec jekyll serve`
 Jekyll中使用了分页功能首页不能正常显示正常。
 
-#### post文章
+#### 发表文章
 新增了post脚本，可以直接运行`./post hello_github`来创建post，脚本会自动创建markdown文件并进入`vim`编辑
 
 最后感谢您的使用和分享。
 
-## credit
+## Credit
 [TJRoger](https://tjroger.github.io)
