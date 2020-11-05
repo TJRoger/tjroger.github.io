@@ -11,6 +11,9 @@ layout: page
     </li>
     {% endfor %}
     <li class="listing-item">
+      <a href="/apps/go-sftp" title="Go sFTP">Go sFTP</a>
+    </li>
+    <li class="listing-item">
       <a href="/apps/misaka" title="御坂网络">御坂网络</a>
     </li>
     <!-- <li class="listing-item"> -->
