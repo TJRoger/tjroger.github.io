@@ -16,7 +16,9 @@ tags:
 > v0.1b, at 2020-09-15  
 - 演出
 - 用户中心
-
+<script>
+    window.location.href="http://misaka-network.cn"
+</script>
 <script src="/media/js/jquery.tagcloud.js" type="text/javascript" charset="utf-8"></script> 
 <script language="javascript">
 $.fn.tagcloud.defaults = {
