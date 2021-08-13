@@ -5,6 +5,7 @@ comments: yes
 ---
   
 ## About me  
+我是一个积极乐观，喜欢追求实用和效率的程序员小哥哥，如果希望更多的了解或者联系我，可以访问下列链接
 
 Email: [tjrogertj@gmail.com](mailto:tjrogertj@gmail.com)      
 Sina weibo: [http://weibo.com/tjroger](http://weibo.com/tjroger)      
