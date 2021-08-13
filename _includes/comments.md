@@ -14,7 +14,7 @@
       repo: 'tjroger.github.io',
       owner: 'TJRoger',
       admin: ['TJRoger'],
-      id: location.pathname,
+      id: decodeURI(location.pathname),
       distractionFreeMode: false
       })
       gitalk.render('gitalk-container')
