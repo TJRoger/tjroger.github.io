@@ -6,7 +6,7 @@
 <section class="comment">
   <!-- gitalk -->
   <div id="gitalk-container" ></div>
-  <script src="//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
   <script type="text/javascript">
       const gitalk = new Gitalk({
       clientID: '4385a35b55e5381d97f8',
