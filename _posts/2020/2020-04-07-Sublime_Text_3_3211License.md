@@ -10,10 +10,11 @@ tags:
 
 
 ## Reference
-[origin](https://allwpt.com/1035.html)
+[origin](https://allwpt.com/1035.html)  
 It's only for test. Please use copyright edition for your business. Thanks.
 
 ## Host
+add these dns record to your host file  
 ```
 127.0.0.1 www.sublimetext.com
 127.0.0.1 sublimetext.com
