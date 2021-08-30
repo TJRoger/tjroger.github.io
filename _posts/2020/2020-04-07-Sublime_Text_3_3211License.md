@@ -9,9 +9,9 @@ tags:
 
 
 
-## 参考
-[](https://allwpt.com/1035.html)
-有条件请支持正版，谢谢
+## Reference
+[origin](https://allwpt.com/1035.html)
+It's only for test. Please use copyright edition for your business. Thanks.
 
 ## Host
 ```
