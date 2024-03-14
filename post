@@ -20,5 +20,5 @@ if (( $# > 0 )); then
     fi
     vim $file
 else
-    echo 'No file name entered! Please enter one.'
+    echo 'No file name entered! Please enter.'
 fi
