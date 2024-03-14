@@ -1,8 +1,8 @@
 ---
 layout: post
-title: 一篇文章告诉你怎么使用Shell执行Python脚本内的某个函数（附定时任务攻略））
+title: 一篇文章告诉你怎么使用Shell执行Python脚本内的某个函数（附定时任务攻略）
 categories:
-- page
+- shell,tools,productive
 tags:
 - python,shell,定时任务
 ---
@@ -58,7 +58,7 @@ def call_function(module, function_name, *args, **kwargs):
 使用shell脚本直接调用上述脚本就可以间接实现调用Python脚本内某个函数了
 #####终极方法
 上述解决方案还需要额外写一个脚本，感觉一点不geek，于是继续寻找，最后找到了`python -c `这个命令，它可以直接运行Python命令，于是
-```
+```bash
 python -c "from your_module import your_function; your_function()"
 ```
 完美实现shell运行Python脚本内的某个方法。
@@ -70,6 +70,5 @@ python -c "from your_module import your_function; your_function()"
 ```
 这是我的生产环境部署的两条命令，就不详细介绍了。
 完结，撒花
-## 
 
 ----
